@@ -1,0 +1,125 @@
+body {
+    background: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: darkgray;
+    text-decoration-color: white;
+    margin: 0px;
+    display: flex;
+}
+
+nav {
+    display: inline;
+    /* justify-content: space-between; */
+}
+
+p {
+    color: white;
+    font-family: arial, serif;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-align: right;
+}
+
+a {
+    display: block;
+    color: white;
+    font-family: arial, serif;
+    text-decoration: none;
+    text-align: right;
+}
+
+#title {
+    height: 30vh;
+    background-color: black;
+    font-family: sans-serif;
+    color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20vh;
+    font-size: 20px; 
+}
+
+.squares {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#box-1 {
+    background-color: lightseagreen;
+    height: 20vh;
+    width: 13vw;
+    border-radius: 25px;
+    border-color: black;
+    margin: 20px;
+}
+
+#box-2 {
+    background-color: lightseagreen;
+    height: 20vh;
+    width: 13vw;
+    border-radius: 25px;
+    border-color: black;
+    margin: 20px;
+}
+
+#box-3 {
+    background-color: lightseagreen;
+    height: 20vh;
+    width: 13vw;
+    border-radius: 25px;
+    border-color: black;
+    margin: 20px;
+}
+
+.rectangles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#rectangle-1 {
+    background-color: lightsalmon;
+    height: 20vh;
+    width: 30vw;
+    border-color: black;
+    margin: 20px;   
+}
+
+#rectangle-2 {
+    background-color: lightsalmon;
+    height: 20vh;
+    width: 30vw;
+    border-color: black;
+    margin: 20px;   
+}
+
+.random {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#text {
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer {
+    height: 15vh;
+    width: absolute;
+    background-color: slateblue;
+    margin: 0;
+}
